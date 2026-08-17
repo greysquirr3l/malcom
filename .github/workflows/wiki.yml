@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: Install mdBook
-        uses: taiki-e/install-action@05829426d56c23290286f25dac53f536b618027b # v2.4.0
+        uses: taiki-e/install-action@82cd3e7658a6f96c86c0234aeeda1748937cb0a1 # v2.85.13
         with:
           # Pinned version. `latest` is risky — a new mdBook release
           # can change the build's expected syntax.
